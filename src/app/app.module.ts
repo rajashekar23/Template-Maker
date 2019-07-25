@@ -9,11 +9,11 @@ import { HomePageModule } from './pages/home-page/home-page.module';
 @NgModule({
   declarations: [
     AppComponent
- 
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, HomePageModule
+    AppRoutingModule, HomePageModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
