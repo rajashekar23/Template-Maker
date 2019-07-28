@@ -1,3 +1,8 @@
-<p>
-  create-page works!
-</p>
+
+    <div>
+        <label >Template</label>
+      </div>
+  
+    <ckeditor [(ngModel)]="model.description" [editor]="Editor" data="<p>Hello, world!</p>"></ckeditor>
+    <p><button type="submit" (click)="submit()">Submit</button> </p>
+
