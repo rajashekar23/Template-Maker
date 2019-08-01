@@ -1,0 +1,9 @@
+.container-fluid{
+    background-image: url("../../../assets/architecture-black-and-white-dark-2081166.jpg");
+    height: 400px; 
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

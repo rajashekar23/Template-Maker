@@ -7,9 +7,16 @@ import { BannerComponent } from 'src/app/components/banner/banner.component';
 import { EndComponent } from 'src/app/components/end/end.component';
 import { CreatePageComponent } from '../create-page/create-page.component';
 import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
+import { ContentComponent } from 'src/app/components/content/content.component';
+import { ContentoneComponent } from 'src/app/components/contentone/contentone.component';
+import { ContenttwoComponent } from 'src/app/components/contenttwo/contenttwo.component';
+import { ContentthreeComponent } from 'src/app/components/contentthree/contentthree.component';
 
 @NgModule({
-  declarations: [HomePageComponent, NavComponent, BannerComponent, EndComponent , CreatePageComponent],
+  declarations: [HomePageComponent, NavComponent, ContentComponent, BannerComponent, ContentoneComponent,
+    ContenttwoComponent,
+    ContentthreeComponent,
+ EndComponent , CreatePageComponent],
   imports: [
     CommonModule,
     CKEditorModule,
